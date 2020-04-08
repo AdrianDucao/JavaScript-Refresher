@@ -74,6 +74,9 @@
 
     var quotient = 1/1;
     console.log(quotient);
+    
+    var remainder = 1%1;
+    console.log(remainder);
 
     /*
         incrementing numbers
