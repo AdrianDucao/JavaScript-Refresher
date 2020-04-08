@@ -84,3 +84,9 @@
 
     number++; //beautiful way
     number--; 
+
+    /*
+        decimal value
+    */
+    var decimal = 6.9;
+    var myDecimal = 0.0001;
