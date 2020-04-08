@@ -74,3 +74,13 @@
 
     var quotient = 1/1;
     console.log(quotient);
+
+    /*
+        incrementing numbers
+    */
+    var number = 69;
+
+    number = number+1; //shitty way
+
+    number++; //beautiful way
+    number--; 
