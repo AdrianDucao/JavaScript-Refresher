@@ -60,3 +60,17 @@
     //output
     console.log(firstName, lastName); //expect to see undefined error
     
+    /*
+        Operators
+    */
+    var sum = 1+1;
+    console.log(sum);
+
+    var difference = 1-1;
+    console.log(difference);
+
+    var product = 1*1;
+    console.log(product);
+
+    var quotient = 1/1;
+    console.log(quotient);
