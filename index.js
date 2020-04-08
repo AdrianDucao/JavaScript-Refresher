@@ -48,3 +48,15 @@
    /*
        case sensitivity in variables
    */
+    
+    //declaring
+    var firstName;
+    var lastName;
+
+    //assignment
+    firstname = "putin";
+    LASTNAME = "fat";
+
+    //output
+    console.log(firstName, lastName); //expect to see undefined error
+    
