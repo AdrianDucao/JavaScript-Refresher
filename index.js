@@ -104,3 +104,11 @@
 
     console.log("Bracket Notation: ",find);
     
+    /*
+        Finding last character in string
+    */
+
+    //sample
+    var name = "Adrian";
+    var lastLetter = name[name.length - 1];
+    console.log("last letter in string: ",lastLetter);
