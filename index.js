@@ -365,7 +365,19 @@
 
     /*Objects*/
     var myObject = {
-        "name": "Adrian";
-        "age": 21;
-        "friends": ["friend1", "friend1", "friend3"];
+        "name": "Adrian",
+        "age": 21,
+        "friends": ["friends"]
     }
+
+    /*Access properties in object*/
+    var myObject = {
+        "name": "Adrian",
+        "age": 21,
+        "friends": ["friend1", "friend1", "friend3"],
+    }
+
+    var getName = myObject.name;
+    var getAge = myObject.age;
+
+    console.log("Accessing properties in object: ",getName, getAge);
