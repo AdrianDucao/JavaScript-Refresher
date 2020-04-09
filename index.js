@@ -112,3 +112,16 @@
     var name = "Adrian";
     var lastLetter = name[name.length - 1];
     console.log("last letter in string: ",lastLetter);
+
+    /*
+        Word Blanks
+    */
+
+    function wordBlanks(noun, adjective, verb, adverb){
+        var result = "";
+        result += "The " + adjective + " " + noun + " " + verb + " to the store."
+
+        return result;
+    }
+
+    console.log(wordBlanks("dog", "big", "ran", "quickly"));
