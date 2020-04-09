@@ -198,3 +198,15 @@
 
     var removeArray = sampleArray.shift();
     console.log("after shift(): ",sampleArray);
+
+    /*
+        unshift()
+    */
+    var sampleArray = ["China", "virus", "pandemic"];
+    console.log("original array: ",sampleArray);
+    
+    sampleArray.shift();
+    console.log("after shift(): ",sampleArray);
+
+    sampleArray.unshift("Corona");
+    console.log("after unshift() ",sampleArray);
