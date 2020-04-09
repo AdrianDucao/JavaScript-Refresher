@@ -393,5 +393,11 @@
     //updating properties
     myObject.name = "Ducao";
     myObject.age = 22;
-    
+
     console.log("Updated object properties: ",myObject);
+
+    /*Adding properties to object*/
+    console.log("Before adding properties: ",myObject);
+    myObject.status = "Complicated";
+
+    console.log("After adding properties: ", myObject);
