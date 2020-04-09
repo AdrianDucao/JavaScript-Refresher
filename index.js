@@ -216,3 +216,12 @@
     */
     //[item, quantity]
     var shoppingList = [["canned goods",5],["cereal",10],["soda",5]];
+
+    /*
+        resuable code with funtion
+    */
+    function myFunction(){
+        console.log("Enhance Community Quarantine");
+    }
+
+    myFunction();
