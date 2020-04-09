@@ -292,3 +292,17 @@
     console.log("Before: "+JSON.stringify(testList));
     console.log(nextInLine(testList, 6));
     console.log("After: "+JSON.stringify(testList));
+
+    /*
+        Conditional Statements
+    */
+    //basic sample
+    function trueOrFalse(arg){
+        if(arg){
+            return "It's True";
+        }else{
+            return "It's False";
+        }
+    }
+
+    console.log(trueOrFalse(false));
