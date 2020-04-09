@@ -235,3 +235,24 @@
     }
 
     myFunction(69,69);
+
+    /*
+        Global scope and function
+    */
+    var globalVar = 69;
+
+    function sample1(){
+
+    }
+
+    function sample2(){
+        var output = "";
+
+        if(typeof globalVar != "undefined"){
+            output += "globalVar: "+globalVar;
+        }
+
+        console.log(output);
+    }
+
+    sample2();
