@@ -226,3 +226,12 @@
 
     //calling the function
     myFunction();
+
+    /*
+        passing values to function with arguement
+    */
+    function myFunction(a,b){
+        console.log("Product: ",a*b);
+    }
+
+    myFunction(69,69);
