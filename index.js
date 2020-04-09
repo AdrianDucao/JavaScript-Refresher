@@ -179,3 +179,13 @@
     
     sampleArray.push("incompetent","president");
     console.log("push(): ",sampleArray);
+
+    /*
+        removing value in array with pop()
+    */
+    var sampleArray = ["corona","virus"];
+    console.log("before pop(): ",sampleArray);
+
+    var removeArray = sampleArray.pop();
+    console.log("with pop(): ",removeArray);
+    console.log("after pop(): ", sampleArray);
