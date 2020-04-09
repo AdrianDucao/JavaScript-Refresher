@@ -141,3 +141,12 @@
     */
 
     var ourArray = [["array1", 1], ["array2","2"]];
+
+    /*
+        access array data with index
+    */
+
+    var array = [1,2,3];
+    var checkData = array[1];
+
+    console.log("Access array with index", checkData);
