@@ -58,7 +58,7 @@
     LASTNAME = "fat";
 
     //output
-    console.log(firstName, lastName); //expect to see undefined error
+    console.log("Case Sensitivity in Variable Expected Error: ", firstName, lastName); //expect to see undefined error
     
     /*
         Operators
@@ -67,16 +67,16 @@
     console.log(sum);
 
     var difference = 1-1;
-    console.log(difference);
+    console.log("Difference: ", difference);
 
     var product = 1*1;
-    console.log(product);
+    console.log("Product: ",product);
 
     var quotient = 1/1;
-    console.log(quotient);
+    console.log("Quotient: ",quotient);
     
     var remainder = 1%1;
-    console.log(remainder);
+    console.log("Remeainder: ",remainder);
 
     /*
         incrementing numbers
@@ -93,3 +93,14 @@
     */
     var decimal = 6.9;
     var myDecimal = 0.0001;
+
+    /*
+        bracket notation
+    */
+    var find;
+    var name = "Adrian";
+
+    find = name[0];
+
+    console.log("Bracket Notation: ",find);
+    
