@@ -170,3 +170,12 @@
     var getData = tooManyArray[2][0];
 
     console.log("accessing multiple arrays: ",getData);
+
+    /*
+        manipulate arrays with push()
+    */
+    var sampleArray = ["Donald","Trump"];
+    console.log("Orignal sample:", sampleArray);
+    
+    sampleArray.push("incompetent","president");
+    console.log("push(): ",sampleArray);
