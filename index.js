@@ -362,3 +362,10 @@
 
     cardCount(2); cardCount(4); cardCount(0); cardCount(0); cardCount(0);
     console.log(cardCount(6))
+
+    /*Objects*/
+    var myObject = {
+        "name": "Adrian";
+        "age": 21;
+        "friends": ["friend1", "friend1", "friend3"];
+    }
