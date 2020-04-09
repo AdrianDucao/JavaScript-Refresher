@@ -224,4 +224,5 @@
         console.log("Enhance Community Quarantine");
     }
 
+    //calling the function
     myFunction();
