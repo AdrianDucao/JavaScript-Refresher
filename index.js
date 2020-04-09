@@ -377,7 +377,7 @@
         "friends": ["friend1", "friend1", "friend3"],
     }
 
-    var getName = myObject.name;
-    var getAge = myObject.age;
+    var getName = myObject.name; //using dot notation
+    var getAge = myObject.age; //using dot notation
 
     console.log("Accessing properties in object: ",getName, getAge);
