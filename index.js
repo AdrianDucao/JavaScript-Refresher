@@ -125,3 +125,15 @@
     }
 
     console.log(wordBlanks("dog", "big", "ran", "quickly"));
+
+    /*
+        Storing value in Array
+    */
+
+    //sample
+    var myArray = ["Adrian", 21];
+
+    //more sample
+    var ourArray = ["damn", "son", "!"];
+
+    //
