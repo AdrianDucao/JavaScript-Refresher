@@ -401,3 +401,8 @@
     myObject.status = "Complicated";
 
     console.log("After adding properties: ", myObject);
+
+    /*delete properties from an object*/
+    console.log("Before deleting property: ",myObject);
+    delete myObject.status;
+    console.log("After deleting property: ",myObject);
