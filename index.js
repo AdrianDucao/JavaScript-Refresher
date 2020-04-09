@@ -189,3 +189,12 @@
     var removeArray = sampleArray.pop();
     console.log("with pop(): ",removeArray);
     console.log("after pop(): ", sampleArray);
+
+    /*
+        manipulating array with shift()
+    */
+    var sampleArray = ["china","virus",["pandemic", "death"]];
+    console.log("before shift(): ",sampleArray);
+
+    var removeArray = sampleArray.shift();
+    console.log("after shift(): ",sampleArray);
