@@ -306,3 +306,25 @@
     }
 
     console.log(trueOrFalse(false));
+
+    /*
+        Switch Statements
+    */
+    function switcher(val){
+        var output = "";
+
+        switch (val){
+            case "a":
+                output = "atdog";
+                break;
+            case "b":
+                output = "boobs";
+                break;
+            default:
+                output = "invalid entry"; 
+        }
+
+        return output;
+    } 
+
+    console.log("Switch: ",switcher("a"))
