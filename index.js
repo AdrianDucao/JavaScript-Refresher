@@ -423,4 +423,14 @@
     }
 
     console.log("Number of items remaining: ",stockPile("soap"));
-    
+
+    /*while loop*/
+    var array = [];
+
+    var i = 1;
+    while(i <= 5){
+        array.push(i);
+        i++;
+    }
+
+    console.log("While Loop: ", array);
