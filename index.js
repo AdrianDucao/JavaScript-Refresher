@@ -136,4 +136,8 @@
     //more sample
     var ourArray = ["damn", "son", "!"];
 
-    //
+    /*
+        nested Array
+    */
+
+    var ourArray = [["array1", 1], ["array2","2"]];
