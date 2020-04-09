@@ -277,3 +277,18 @@
     }
 
     console.log("return: ", smush(69,69));
+
+    /*
+        nextInLine
+    */
+    function nextInLine(arr, item){
+        arr.push(item);
+    
+        return arr.shift(item);
+    }
+
+    var testList = [1,2,3,4,5];
+
+    console.log("Before: "+JSON.stringify(testList));
+    console.log(nextInLine(testList, 6));
+    console.log("After: "+JSON.stringify(testList));
