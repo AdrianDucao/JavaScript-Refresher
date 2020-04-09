@@ -256,3 +256,15 @@
     }
 
     sample2();
+
+    /*
+        local scope and function
+    */
+    function myFunction1(){
+        var localVar = 69;
+        console.log("localVar: ",localVar);
+    }
+
+    myFunction1();
+
+    console.log(localVar); //there would be an error
