@@ -406,3 +406,21 @@
     console.log("Before deleting property: ",myObject);
     delete myObject.status;
     console.log("After deleting property: ",myObject);
+
+    /*using objects for lookups instead of switch or conditional*/
+    function stockPile(item){
+        var result = "";
+
+        var itemList = {
+            "soap": 21,
+            "shampoo": 12,
+            "condoms": 5,
+            "lube": 3
+        }
+
+        result = itemList[item];
+        return result;
+    }
+
+    console.log("Number of items remaining: ",stockPile("soap"));
+    
