@@ -210,3 +210,9 @@
 
     sampleArray.unshift("Corona");
     console.log("after unshift() ",sampleArray);
+
+    /*
+        uses of nested array
+    */
+    //[item, quantity]
+    var shoppingList = [["canned goods",5],["cereal",10],["soda",5]];
