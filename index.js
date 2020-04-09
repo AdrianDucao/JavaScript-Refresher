@@ -160,3 +160,13 @@
     myArray[0] = 69;
 
     console.log("modified array ",myArray);
+
+    /*
+        multi dimensonal arrays with indexes
+    */
+
+    var tooManyArray = [[1,2],[3,4],[[8,9]]];
+    console.log("original multiple arrays ",tooManyArray);
+    var getData = tooManyArray[2][0];
+
+    console.log("accessing multiple arrays: ",getData);
