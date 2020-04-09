@@ -381,3 +381,17 @@
     var getAge = myObject.age; //using dot notation
 
     console.log("Accessing properties in object: ",getName, getAge);
+
+    /*Updating object properties*/
+    var myObject = {
+        "name": "Adrian",
+        "age": 21,
+        "friends": ["friend1", "friend1", "friend3"],
+    }
+    console.log("Before Updating object properties: ",myObject);
+
+    //updating properties
+    myObject.name = "Ducao";
+    myObject.age = 22;
+    
+    console.log("Updated object properties: ",myObject);
