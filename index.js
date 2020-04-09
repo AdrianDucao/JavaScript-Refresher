@@ -267,4 +267,13 @@
 
     myFunction1();
 
-    console.log(localVar); //there would be an error
+    //console.log(localVar); //there would be an error
+
+    /*
+        Returning value with return
+    */
+    function smush(a,b){
+        return a+b;
+    }
+
+    console.log("return: ", smush(69,69));
