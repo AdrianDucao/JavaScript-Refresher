@@ -150,3 +150,13 @@
     var checkData = array[1];
 
     console.log("Access array with index", checkData);
+
+    /*
+        modify array with index
+    */
+
+    var myArray = [1,2,3];
+    console.log("Original Array: ",myArray);
+    myArray[0] = 69;
+
+    console.log("modified array ",myArray);
