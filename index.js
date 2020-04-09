@@ -328,3 +328,37 @@
     } 
 
     console.log("Switch: ",switcher("a"))
+
+    /*
+        Blackjack Card Counting Game
+    */
+    var globalCounter = 0;
+
+    function cardCount(card){
+        holdBet = 'Hold';
+
+        switch(card){
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+                globalCounter++;
+                break;
+            case 10:
+            case "J":
+            case "Q":
+            case "K":
+            case "A":
+                globalCounter--;
+                break;
+        }
+
+        if(globalCounter > 0){
+            holdBet = 'Bet';
+        }
+        return globalCounter+" "+holdBet;
+    }
+
+    cardCount(2); cardCount(4); cardCount(0); cardCount(0); cardCount(0);
+    console.log(cardCount(6))
