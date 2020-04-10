@@ -434,3 +434,15 @@
     }
 
     console.log("While Loop: ", array);
+
+    /*For Loop*/
+    var limit = 100;
+    var testRun = [];
+
+    for(var i = 0; i < limit; i++){
+        testRun.push(i);
+    }
+
+    console.log("Test Run: ",testRun);
+
+    
