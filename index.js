@@ -445,4 +445,12 @@
 
     console.log("Test Run: ",testRun);
 
-    
+    /*iterate through array with for loop*/
+    var array = [1,1,1,1,1];
+    var total = 0;
+
+    for(var i = 0; i < array.length; i++){
+        total += array[i];
+    }
+
+    console.log("Iterate through array: ",total);
